@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>gallery</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+ <script src="./js/script.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="h_tit">
+    <p>PORTFOLIO</p>
+    <span>UI/UX DEVELOPMENT</span>
+   </div>
+   <!-- h_tit end -->
+   <div class="sns">
+    <ul>
+     <li><i class="fa-brands fa-square-twitter"></i><p>Twitter</p></li>
+     <li><i class="fa-brands fa-square-instagram"></i><p>Instagram</p></li>
+     <li><i class="fa-solid fa-square-envelope"></i><p>E-mail</p></li>
+    </ul>
+   </div>
+   <!-- sns end -->
+  </header>
+  <!-- header end -->
+  <section id="contents">
+   <div class="menu">
+    <ul>
+     <li data-filter=".even">WEB</li>
+     <li data-filter=".odd">DESIGN</li>
+     <li class="active" data-filter="*">ALL</li>
+    </ul>
+   </div>
+   <div class="gallery">
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/mega.png" alt="x">
+      <p>MegaBox</p>
+      <span>메가박스 사이트를 클론 코딩하여 구현하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox1 end -->
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/tour.png" alt="x">
+      <p>Tourlesjours</p>
+      <span>뚜레쥬르 사이트를 클론 코딩하여 구현하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox2 end -->
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/instar.png" alt="x">
+      <p>Instagram</p>
+      <span>인스타그램 사이트를 클론 코딩하여 구현하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox3 end -->
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/museum_m.png" alt="x">
+      <p>국립광주박물관</p>
+      <span>국립광주박물관 사이트를 클론 코딩하여 구현하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox4 end -->
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/1010.png" alt="x">
+      <p>10x10</p>
+      <span>텐바이텐 사이트를 클론 코딩하여 구현하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox5 end -->
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/ABC.png" alt="x">
+      <p>ABC-MART</p>
+      <span>ABC-MART 사이트를 클론 코딩하여 구현하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox6 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/1.jpg" alt="x">
+      <p>chappy house</p>
+      <span>라우드소싱에 출품한 챠피하우스 로고 디자인입니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox7 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/2.jpg" alt="x">
+      <p>CGV 웹배너</p>
+      <span>크리스마스 컨셉으로 리디자인한 CGV 이벤트 배너입니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox8 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/3.jpg" alt="x">
+      <p>반려견과 야간산책 안전하게 즐기기</p>
+      <span>카드뉴스를 리디자인하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox9 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/4.jpg" alt="x">
+      <p>향품달 상세페이지</p>
+      <span>향품달 브랜드의 향수 상세페이지를 리디자인하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox10 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/5.jpg" alt="x">
+      <p>노원달빛산책</p>
+      <span>축제 포스터를 리디자인 하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox11 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/6.jpg" alt="x">
+      <p>Pick View</p>
+      <span>커뮤니티형 웹툰 웹소설 통합리뷰 서비스</span>
+     </a>
+    </div>
+    <!-- gallerybox12 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/7.jpg" alt="x">
+      <p>Coffee bean</p>
+      <span>커피빈 웹페이지를 리디자인하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox13 end -->
+
+   </div>
+  </section>
+ </div>
+
+ <div class="popup_wrap">
+  <div class="popup p1">
+   <div class="p_img">
+    <img src="./imgs/megabox.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/megabox/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p1 end -->
+  <div class="popup p2">
+   <div class="p_img">
+    <img src="./imgs/TOURLESJOURS.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/tourlesjours/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p2 end -->
+  <div class="popup p3">
+   <div class="p_img">
+    <img src="./imgs/instagram.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/instagram/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p3 end -->
+  <div class="popup p4">
+   <div class="p_img">
+    <img src="./imgs/museum.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/museum/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p4 end -->
+  <div class="popup p5">
+   <div class="p_img">
+    <img src="./imgs/10X10.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/1010/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p5 end -->
+  <div class="popup p6">
+   <div class="p_img">
+    <img src="./imgs/ABCMART.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/abc/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p6 end -->
+  <div class="popup p7">
+   <div class="p_img">
+    <img src="./imgs/1-1.png" alt="x">
+   </div>
+  </div>
+  <!-- p7 end -->
+  <div class="popup p8">
+   <div class="p_img">
+    <img src="./imgs/2-2.png" alt="x">
+   </div>
+  </div>
+  <!-- p8 end -->
+  <div class="popup p9">
+   <div class="p_img">
+    <img src="./imgs/3-3.png" alt="x">
+   </div>
+  </div>
+  <!-- p9 end -->
+  <div class="popup p10">
+   <div class="p_img">
+    <img src="./imgs/4-4.png" alt="x">
+   </div>
+  </div>
+  <!-- p10 end -->
+  <div class="popup p11">
+   <div class="p_img">
+    <img src="./imgs/5.jpg" alt="x">
+   </div>
+  </div>
+  <!-- p11 end -->
+  <div class="popup p12">
+   <div class="p_img">
+    <img src="./imgs/6-6.png" alt="x">
+   </div>
+  </div>
+  <!-- p12 end -->
+  <div class="popup p13">
+   <div class="p_img">
+    <img src="./imgs/7-7.png" alt="x">
+   </div>
+  </div>
+  <!-- p13 end -->
+
+  <div class="p_close">x</div>
+  
+ </div>
+ <!-- popup_wrap end -->
+</body>
+</html>
